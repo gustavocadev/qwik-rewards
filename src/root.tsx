@@ -1,5 +1,5 @@
 import { Logo } from './components/logo/logo';
-import { Reward } from './components/reward';
+import Example from './components/example/Example';
 
 export default () => {
   return (
@@ -10,7 +10,7 @@ export default () => {
       </head>
       <body>
         <Logo />
-        <Reward />
+        <Example />
       </body>
     </>
   );
