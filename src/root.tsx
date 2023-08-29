@@ -1,5 +1,5 @@
-import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import { Logo } from './components/logo/logo';
+import { Reward } from './components/reward';
 
 export default () => {
   return (
@@ -10,7 +10,7 @@ export default () => {
       </head>
       <body>
         <Logo />
-        <Counter />
+        <Reward />
       </body>
     </>
   );
