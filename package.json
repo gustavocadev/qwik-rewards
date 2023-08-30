@@ -1,9 +1,22 @@
 {
   "name": "qwik-rewards",
   "version": "0.1.0",
-  "description": "Create a reusable Qwik component library",
+  "description": "This package lets you easily add micro-interactions to your app and reward users with the rain of confetti, emoji or balloons.",
   "author": "gustavocadev",
   "license": "MIT",
+  "keywords": [
+    "qwik",
+    "qwik-rewards",
+    "qwik-city",
+    "confetti",
+    "emoji",
+    "balloons",
+    "cannon",
+    "microinteractions",
+    "micro-interactions",
+    "UI",
+    "UX"
+  ],
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
