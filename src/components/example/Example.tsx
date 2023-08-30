@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { component$ } from '@builder.io/qwik';
 import { useReward } from '../../hooks/useReward';
 
@@ -20,6 +21,7 @@ export default component$(() => {
 
   //  you can trigger the animation onclick
   // I have renamed reward to balloonsReward etc.
+
   const { reward: balloonsReward, isAnimating: isBalloonsAnimating } =
     useReward('some-id', 'balloons', config);
 
