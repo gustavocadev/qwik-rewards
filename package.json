@@ -32,8 +32,8 @@
     "fmt": "prettier --write .",
     "fmt.check": "prettier --check .",
     "lint": "eslint \"src/**/*.ts*\"",
+    "prepublishOnly": "pnpm run build",
     "release": "changeset publish",
-    "prepublishOnly": "npm run build",
     "start": "vite --open --mode ssr",
     "test": "echo \"No test specified\" && exit 0",
     "qwik": "qwik"
