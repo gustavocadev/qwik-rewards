@@ -1,6 +1,6 @@
 {
   "name": "qwik-rewards",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This package lets you easily add micro-interactions to your app and reward users with the rain of confetti, emoji or balloons.",
   "author": "gustavocadev",
   "license": "MIT",
